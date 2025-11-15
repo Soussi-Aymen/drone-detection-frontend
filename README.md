@@ -44,7 +44,7 @@ To launch the HMI client:
 
 Clone the repository:
 
-git clone [REPO_URL]
+git clone https://github.com/Soussi-Aymen/drone-detection-frontend.git
 
 
 Install dependencies:

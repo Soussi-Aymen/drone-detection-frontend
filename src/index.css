@@ -1,0 +1,23 @@
+/* * Global Stylesheet: Imports Tailwind CSS base directives
+ * and defines custom utility classes, if any.
+ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom animation for a subtle ping effect on the threat marker */
+@keyframes ping-slow {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 0.7;
+  }
+  50% {
+    transform: scale(1.5);
+    opacity: 0.1;
+  }
+}
+
+.animate-ping-slow {
+  animation: ping-slow 2s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
