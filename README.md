@@ -4,7 +4,7 @@
 
 This repository contains the single-page application (SPA) frontend for the Counter-UAS (C-UAS) system. It serves as the primary operator interface for real-time situational awareness and threat visualization.
 
-It is built using Next.js and React.js with TypeScript.
+It is built using and React.js with TypeScript.
 
 🎯 Key Responsibilities
 
@@ -54,7 +54,6 @@ npm install
 
 Start the development server:
 
-npm run dev
-
+npm start
 
 Prerequisite: Ensure the drone-detection-backend server is running to populate the map with live threat data.

@@ -4,7 +4,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 /* Custom animation for a subtle ping effect on the threat marker */
 @keyframes ping-slow {
   0%,

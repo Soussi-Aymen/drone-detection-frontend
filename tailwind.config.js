@@ -1,17 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+  // IMPORTANT: This path needs to include all files using Tailwind classes
   content: [
     "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,jsx}", 
   ],
   theme: {
-    extend: {
-      // Define custom tactical colors here if needed
-      colors: {
-        'tactical-blue': '#5D9CEC',
-        'tactical-red': '#FF0000',
-      },
-    },
+    extend: {},
   },
   plugins: [],
 }
