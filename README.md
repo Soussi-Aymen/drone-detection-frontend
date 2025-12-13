@@ -50,6 +50,11 @@ Clone the repository:
 git clone https://github.com/Soussi-Aymen/drone-detection-frontend.git
 ```
 
+Configure environment:
+
+1.  Copy `.env.example` to `.env`.
+2.  Add your Google Maps API key to `VITE_GOOGLE_MAPS_API_KEY`.
+
 Install dependencies:
 
 ```bash
